@@ -1,13 +1,14 @@
 # A Small Intro
-<center>
+<div align="center">
   <img src="https://media.giphy.com/media/j0HjChGV0J44KrrlGv/giphy.gif" width="100"/>
+  <p>
   <a href="https://www.linkedin.com/in/orhon/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
   <a href="https://twitter.com/orhoncand">
     <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
   </a>
-</center>
+</div>
 
 
 # Resources
