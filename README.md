@@ -21,6 +21,7 @@ Resources on economics, cryptocurrencies, some coding and tech
 * [The Price of Time: The Real Story of Interest (2022)](https://www.amazon.com/Price-Time-Real-Story-Interest/dp/0802160069): A book on how the concept of interest evolved through time and the role of central banks throughout the process.
 * book 2
 #### Websites
+* [Marginal Revolution](https://marginalrevolution.com): A blog by Tylor Cowen, updated frequently with interesting stuff.
 #### Articles
 
 ## Blockchain, Bitcoin and Cryptocurrencies
