@@ -17,3 +17,6 @@
 Resources on economics, cryptocurrencies, some coding and tech
 
 <h1> Economics </h1>
+<h2> Books </h2>
+<h2> Websites </h2>
+<h2> Articles </h2>
