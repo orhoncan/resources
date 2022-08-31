@@ -13,7 +13,7 @@
 
 
 
-# resources
+# Resources
 Resources on economics, cryptocurrencies, some coding and tech
 
 <h1> Economics </h1>
