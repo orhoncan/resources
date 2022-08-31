@@ -33,4 +33,5 @@ Resources on economics, cryptocurrencies, some coding and tech
 ##### Websites
 * [Econometrics with R](https://www.econometrics-with-r.org): An open source book with basic econometrics and their applications in R.
 * [Getting Started in Data Analysis using Stata and R](https://dss.princeton.edu/training/): Basic topics in econometric with Stata and R applications (some links don't work).
+* [Data Analysis and Prediction Algorithms with R](https://rafalab.github.io/dsbook/): Open source book starting with the basics of R and then econometric topics.
 #### Julia
