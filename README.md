@@ -9,6 +9,8 @@
     <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
   </a>
 </div>
+Hey, Orhon here. B.A. and Ph.D. in Economics, MSc. in Financial Engineering and Risk Management. I have an average Internet connection, curiosity on a weird range of topics, good research skills and zero self regulatory mechanisms. You can find some useful stuff I bump into during my researches here on this page.
+
 
 
 # Resources
@@ -28,4 +30,7 @@ Resources on economics, cryptocurrencies, some coding and tech
 
 ## Coding and Stuff
 #### R
+##### Websites
+* [Econometrics with R](https://www.econometrics-with-r.org): An open source book with basic econometrics and their applications in R.
+* [Getting Started in Data Analysis using Stata and R](https://dss.princeton.edu/training/): Basic topics in econometric with Stata and R applications (some links don't work).
 #### Julia
