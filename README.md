@@ -27,7 +27,8 @@ Resources on economics, cryptocurrencies, some coding and tech
 ## Blockchain, Bitcoin and Cryptocurrencies
 #### Blockchain
 #### Bitcoin
-#### Other Cryptos
+#### Other Cryptos, Metaverse, NFT etc.
+* [The Metaverse: And How it Will Revolutionize Everything](https://www.amazon.com/Metaverse-How-Will-Revolutionize-Everything/dp/1324092033/): A book which is designed nicely and covers the imporant stuff along with some basics.
 
 ## Coding and Stuff
 #### R
