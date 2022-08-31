@@ -21,8 +21,8 @@ Resources on economics, cryptocurrencies, some coding and tech
 #### Websites
 #### Articles
 
-## Blockhain, Bitcoin and Cryptocurrencies
-#### Blockhain
+## Blockchain, Bitcoin and Cryptocurrencies
+#### Blockchain
 #### Bitcoin
 #### Other Cryptos
 
