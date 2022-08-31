@@ -1,6 +1,6 @@
 # intro
 <div id="header" align="center">
-  <img src="https://media.giphy.com/media/bIXLCr8Rcr0RPC9JYm/giphy.gif" width="100"/>
+  <img src="https://media.giphy.com/media/j0HjChGV0J44KrrlGv/giphy.gif" width="100"/>
 </div>
 <div id="badges">
   <a href="https://www.linkedin.com/in/orhon/">
