@@ -16,7 +16,16 @@ Resources on economics, cryptocurrencies, some coding and tech
 
 ## Economics
 #### Books
-[The Price of Time: The Real Story of Interest (2022)](https://www.amazon.com/Price-Time-Real-Story-Interest/dp/0802160069): A book on how the concept of interest evolved through time and the role of central banks throughout the process.
+* [The Price of Time: The Real Story of Interest (2022)](https://www.amazon.com/Price-Time-Real-Story-Interest/dp/0802160069): A book on how the concept of interest evolved through time and the role of central banks throughout the process.
 * book 2
 #### Websites
 #### Articles
+
+## Blockhain, Bitcoin and Cryptocurrencies
+#### Blockhain
+#### Bitcoin
+#### Other Cryptos
+
+## Coding and Stuff
+#### R
+#### Julia
