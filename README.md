@@ -18,5 +18,6 @@ Resources on economics, cryptocurrencies, some coding and tech
 
 <h1> Economics </h1>
 <h2> Books </h2>
+..* [The Price of Time: The Real Story of Interest (2022)](https://www.amazon.com/Price-Time-Real-Story-Interest/dp/0802160069): A book on how the concept of interest evolved through time and the role of central banks throughout the process.
 <h2> Websites </h2>
 <h2> Articles </h2>
