@@ -40,3 +40,7 @@ Resources on economics, cryptocurrencies, some coding and tech
 #### Julia
 ##### Websites
 * [Fast Track to Julia](https://juliadocs.github.io/Julia-Cheat-Sheet/): A basic intro and cheat sheet for Julia if you are familiar with coding.
+* [Julia Academy](https://juliaacademy.com): Courses on Julia with a touch of data science.
+* [Julia: A Concise Tutorial](https://syl1.gitbook.io/julia-language-a-concise-tutorial): A book that covers a good deal of programming in Julia.
+* [A Deep Introduction to Julia for Data Science and Scientific Computing](https://ucidatascienceinitiative.github.io/IntroToJulia/): Step by step instructions from basic setup to using Julia for data science.
+* [Pluto](https://github.com/fonsp/Pluto.jl): An enviornment similar to Anaconda for Julia.
