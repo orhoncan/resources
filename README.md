@@ -25,11 +25,11 @@ Resources on economics, cryptocurrencies, some coding and tech
 #### Articles
 
 ## Blockchain, Bitcoin and Cryptocurrencies
-#### Blockchain
-#### Bitcoin
-##### Books
+### Blockchain
+### Bitcoin
+#### Books
 * [The Bitcoin Standard](https://www.amazon.com/Bitcoin-Standard-Decentralized-Alternative-Central/dp/1119473861): Covers the basic history of money and Bitcoin came into the picture.
-#### Other Cryptos, Metaverse, NFT etc.
+### Other Cryptos, Metaverse, NFT etc.
 * [The Metaverse: And How it Will Revolutionize Everything](https://www.amazon.com/Metaverse-How-Will-Revolutionize-Everything/dp/1324092033/): A book which is designed nicely and covers the imporant stuff along with some basics.
 ## Coding and Stuff
 #### R
