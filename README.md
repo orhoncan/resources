@@ -38,3 +38,5 @@ Resources on economics, cryptocurrencies, some coding and tech
 * [Getting Started in Data Analysis using Stata and R](https://dss.princeton.edu/training/): Basic topics in econometric with Stata and R applications (some links don't work).
 * [Data Analysis and Prediction Algorithms with R](https://rafalab.github.io/dsbook/): Open source book starting with the basics of R and then econometric topics.
 #### Julia
+##### Websites
+* [Fast Track to Julia](https://juliadocs.github.io/Julia-Cheat-Sheet/): A basic intro and cheat sheet for Julia if you are familiar with coding.
