@@ -28,9 +28,12 @@ Resources on economics, cryptocurrencies, some coding and tech
 ### Blockchain
 ### Bitcoin
 #### Books
-* [The Bitcoin Standard](https://www.amazon.com/Bitcoin-Standard-Decentralized-Alternative-Central/dp/1119473861): Covers the basic history of money and Bitcoin came into the picture.
+* [The Bitcoin Standard](https://www.amazon.com/Bitcoin-Standard-Decentralized-Alternative-Central/dp/1119473861): Covers the basic history of money and how Bitcoin came into the picture.
 ### Other Cryptos, Metaverse, NFT etc.
+#### Books
 * [The Metaverse: And How it Will Revolutionize Everything](https://www.amazon.com/Metaverse-How-Will-Revolutionize-Everything/dp/1324092033/): A book which is designed nicely and covers the imporant stuff along with some basics.
+#### Websites
+* [BIS Innovation Hub](https://www.bis.org/about/bisih/projects.htm): You may not be a fan of CBDCs but a database to keep an eye on nevertheless.
 ## Coding and Stuff
 #### R
 ##### Websites
