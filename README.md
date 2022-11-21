@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
   </a>
 </div>
-Hey, Orhon here. B.A. and Ph.D. in Economics, MSc. in Financial Engineering and Risk Management. I have an average Internet connection, curiosity on a weird range of topics, good research skills and zero self regulatory mechanisms. You can find some useful stuff I bump into during my researches here on this page.
+Hey, Orhon here. B.A. and Ph.D. in Economics, MSc. in Financial Engineering and Risk Management. I have an average Internet connection (thanks to xDSL/DOCSIS technologies marketed as fiber), curiosity on a weird range of topics (like anything), good research skills (somehow I was able to learn it) and zero self regulatory mechanisms (which is a no go in most cases). You can find some useful stuff I bump into during my researches here on this page (so I am basically taking notes for my future self).
 
 
 
