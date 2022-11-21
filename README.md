@@ -17,19 +17,19 @@ Hey, Orhon here. B.A. and Ph.D. in Economics, MSc. in Financial Engineering and 
 Resources on economics, cryptocurrencies, some coding and tech that may have slipped under the radar.
 
 ## Economics & Finance
- #### Books
+#### Books
 * [The Price of Time: The Real Story of Interest (2022)](https://www.amazon.com/Price-Time-Real-Story-Interest/dp/0802160069): A book on how the concept of interest evolved through time and the role of central banks throughout the process.
- #### Websites
+#### Websites
 * [Marginal Revolution](https://marginalrevolution.com): A blog by Tylor Cowen, updated frequently with interesting stuff. Mainly about altruism and liberalism. Also has a column on Bloomberg.
 * [Abnormal Returns](https://abnormalreturns.com): Economics along with politics and finance.
 * [The Big Picture](https://ritholtz.com): B. Ritholtz's blog on economics and finance with news. Also has a column on Bloomberg.
 
- #### Articles
+#### Articles
  
 ## Blockchain, Bitcoin and Cryptocurrencies
 ### Blockchain
- ### Bitcoin
- #### Books
+### Bitcoin
+#### Books
 * [The Bitcoin Standard](https://www.amazon.com/Bitcoin-Standard-Decentralized-Alternative-Central/dp/1119473861): Covers the basic history of money and how Bitcoin came into the picture.
  ### Other Cryptos, Metaverse, NFT etc.
  #### Books
@@ -38,20 +38,20 @@ Resources on economics, cryptocurrencies, some coding and tech that may have sli
 * [BIS Innovation Hub](https://www.bis.org/about/bisih/projects.htm): You may not be a fan of CBDCs but a database to keep an eye on nevertheless.
 
 ## Coding and Stuff
- #### R
- ##### Websites
+#### R
+##### Websites
 * [Econometrics with R](https://www.econometrics-with-r.org): An open source book with basic econometrics and their applications in R.
 * [Getting Started in Data Analysis using Stata and R](https://dss.princeton.edu/training/): Basic topics in econometric with Stata and R applications (some links don't work).
 * [Data Analysis and Prediction Algorithms with R](https://rafalab.github.io/dsbook/): Open source book starting with the basics of R and then econometric topics.
 * [Flowingdata](https://flowingdata.com): Visualization tutorials mainly using R.
- #### Python
- ##### Websites
+#### Python
+##### Websites
 * [Kdnuggets](https://www.kdnuggets.com): Useful tutorials in Python.
 * [Machine Learning Mastery](https://machinelearningmastery.com/): Advanced tutorials in Python along with R and others.
 * [Econometrics With Python](https://github.com/weijie-chen/Econometrics-With-Python): Econometrics tutorials based on popular textbooks including Gujarati's.
 
- #### Julia
- ##### Websites
+#### Julia
+##### Websites
 * [Fast Track to Julia](https://juliadocs.github.io/Julia-Cheat-Sheet/): A basic intro and cheat sheet for Julia if you are familiar with coding.
 * [Julia Academy](https://juliaacademy.com): Courses on Julia with a touch of data science.
 * [Julia: A Concise Tutorial](https://syl1.gitbook.io/julia-language-a-concise-tutorial): A book that covers a good deal of programming in Julia.
