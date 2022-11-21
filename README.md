@@ -40,7 +40,7 @@ Resources on economics, cryptocurrencies, some coding and tech that may have sli
 #### R
 ##### Websites
 * [Econometrics with R](https://www.econometrics-with-r.org): An open source book with basic econometrics and their applications in R.
-* [Getting Started in Data Analysis using Stata and R](https://dss.princeton.edu/training/): Basic topics in econometric with Stata and R applications (some links don't work).
+* [Getting Started in Data Analysis using Stata and R](https://dss.princeton.edu/training/): Basic topics in econometrics with Stata and R applications (some links don't work).
 * [Data Analysis and Prediction Algorithms with R](https://rafalab.github.io/dsbook/): Open source book starting with the basics of R and then econometric topics.
 * [Flowingdata](https://flowingdata.com): Visualization tutorials mainly using R.
 * [R for Data Science](https://r4ds.had.co.nz/index.html): One of the most famous books regarding R.
