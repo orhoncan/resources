@@ -9,9 +9,7 @@
     <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
   </a>
 </div>
-Hey, Orhon here. B.A. and Ph.D. in Economics, MSc. in Financial Engineering and Risk Management. I have an average Internet connection (thanks to xDSL/DOCSIS technologies marketed as fiber), curiosity on a weird range of topics (like anything), good research skills (somehow I was able to learn it) and zero self regulatory mechanisms (which is a no go in most cases). You can find some useful stuff I bump into during my researches here on this page (so I am basically taking notes for my future self).
-
-
+Hey, Orhon here. B.A. and Ph.D. in Economics, MSc. in Financial Engineering and Risk Management. I have an average Internet connection (thanks to xDSL/DOCSIS technologies marketed as fiber), curiosity on a weird range of topics (you name it, i probably thought about it before), good research skills (somehow i was able to learn it) and zero self regulatory mechanisms (which is a no go in most cases). You can find some useful stuff I bump into during my researches here on this page (so I am basically taking notes for my future self). I may update this page regularly or not, even for once. The future is always ambigious.
 
 # Resources
 Resources on economics, cryptocurrencies, some coding and tech that may have slipped under the radar.
@@ -19,6 +17,7 @@ Resources on economics, cryptocurrencies, some coding and tech that may have sli
 ## Economics & Finance
 #### Books
 * [The Price of Time: The Real Story of Interest (2022)](https://www.amazon.com/Price-Time-Real-Story-Interest/dp/0802160069): A book on how the concept of interest evolved through time and the role of central banks throughout the process.
+ 
 #### Websites
 * [Marginal Revolution](https://marginalrevolution.com): A blog by Tylor Cowen, updated frequently with interesting stuff. Mainly about altruism and liberalism. Also has a column on Bloomberg.
 * [Abnormal Returns](https://abnormalreturns.com): Economics along with politics and finance.
@@ -31,10 +30,10 @@ Resources on economics, cryptocurrencies, some coding and tech that may have sli
 ### Bitcoin
 #### Books
 * [The Bitcoin Standard](https://www.amazon.com/Bitcoin-Standard-Decentralized-Alternative-Central/dp/1119473861): Covers the basic history of money and how Bitcoin came into the picture.
- ### Other Cryptos, Metaverse, NFT etc.
- #### Books
+### Other Cryptos, Metaverse, NFT etc.
+#### Books
 * [The Metaverse: And How it Will Revolutionize Everything](https://www.amazon.com/Metaverse-How-Will-Revolutionize-Everything/dp/1324092033/): A book which is designed nicely and covers the imporant stuff along with some basics.
- #### Websites
+#### Websites
 * [BIS Innovation Hub](https://www.bis.org/about/bisih/projects.htm): You may not be a fan of CBDCs but a database to keep an eye on nevertheless.
 
 ## Coding and Stuff
