@@ -37,7 +37,7 @@ Resources on economics, cryptocurrencies, some coding and tech that may have sli
 * [The Metaverse: And How it Will Revolutionize Everything](https://www.amazon.com/Metaverse-How-Will-Revolutionize-Everything/dp/1324092033/): A book which is designed nicely and covers the imporant stuff along with some basics.
 #### Websites
 * [BIS Innovation Hub](https://www.bis.org/about/bisih/projects.htm): You may not be a fan of CBDCs but a database to keep an eye on nevertheless.
-
+* [Ultrasound.money](https://ultrasound.money): The name is obviously misleading but a good site to check how ETH is doing.
 ## Coding and Stuff
 #### R
 ##### Websites
