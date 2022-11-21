@@ -59,7 +59,7 @@ Resources on economics, cryptocurrencies, some coding and tech that may have sli
 * [A Deep Introduction to Julia for Data Science and Scientific Computing](https://ucidatascienceinitiative.github.io/IntroToJulia/): Step by step instructions from basic setup to using Julia for data science.
 * [Pluto](https://github.com/fonsp/Pluto.jl): An enviornment similar to Anaconda for Julia.
 
-
+# Academic Stuff
 ## Apps to help academics (like it is possible)
 * [Obsidian](https://obsidian.md): Mind mapping, note taking etc. using Zettelkassen method. Dubbed as a second brain.
 * [Zotero](https://www.zotero.org): Open-source, free bibliography manager. Best one hands down. 
