@@ -44,6 +44,7 @@ Resources on economics, cryptocurrencies, some coding and tech that may have sli
 * [Getting Started in Data Analysis using Stata and R](https://dss.princeton.edu/training/): Basic topics in econometric with Stata and R applications (some links don't work).
 * [Data Analysis and Prediction Algorithms with R](https://rafalab.github.io/dsbook/): Open source book starting with the basics of R and then econometric topics.
 * [Flowingdata](https://flowingdata.com): Visualization tutorials mainly using R.
+* [R for Data Science](https://r4ds.had.co.nz/index.html): One of the most famous books regarding R.
 #### Python
 ##### Websites
 * [Kdnuggets](https://www.kdnuggets.com): Useful tutorials in Python.
@@ -63,3 +64,4 @@ Resources on economics, cryptocurrencies, some coding and tech that may have sli
 * [Obsidian](https://obsidian.md): Mind mapping, note taking etc. using Zettelkassen method. Dubbed as a second brain.
 * [Zotero](https://www.zotero.org): Open-source, free bibliography manager. Best one hands down. 
 * [Inoreader](https://www.inoreader.com): RSS service with a good enough free plan.
+* [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html): Transcript of Hamming's speech on academia and science.
