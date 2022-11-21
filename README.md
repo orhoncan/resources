@@ -14,7 +14,7 @@ Hey, Orhon here. B.A. and Ph.D. in Economics, MSc. in Financial Engineering and 
 
 
 # Resources
-Resources on economics, cryptocurrencies, some coding and tech
+Resources on economics, cryptocurrencies, some coding and tech that may have slipped under the radar.
 
 ## Economics & Finance
 #### Books
