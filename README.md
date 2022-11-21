@@ -15,6 +15,8 @@ Hey, Orhon here. B.A. and Ph.D. in Economics, MSc. in Financial Engineering and 
 Resources on economics, cryptocurrencies, some coding and tech that may have slipped under the radar.
 
 ## Economics & Finance
+*I also have YT playlist to save interesting videos regarding the field which can be accessed via [this link](https://www.youtube.com/playlist?list=PLAuEI3_zSXVSyXrlEvpe4TQTk0O4SLrXj) for those interested.*
+
 #### Books
 * [The Price of Time: The Real Story of Interest (2022)](https://www.amazon.com/Price-Time-Real-Story-Interest/dp/0802160069): A book on how the concept of interest evolved through time and the role of central banks throughout the process.
  
