@@ -25,7 +25,7 @@ Resources on economics, cryptocurrencies, some coding and tech that may have sli
 * [The Big Picture](https://ritholtz.com): B. Ritholtz's blog on economics and finance with news. Also has a column on Bloomberg.
 
  #### Articles
-
+ 
 ## Blockchain, Bitcoin and Cryptocurrencies
 ### Blockchain
  ### Bitcoin
