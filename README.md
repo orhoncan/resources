@@ -59,7 +59,7 @@ Resources on economics, cryptocurrencies, some coding and tech that may have sli
 * [Pluto](https://github.com/fonsp/Pluto.jl): An enviornment similar to Anaconda for Julia.
 
 
-## Apps to help academics
+## Apps to help academics (like it is possible)
 * [Obsidian](https://obsidian.md): Mind mapping, note taking etc. using Zettelkassen method. Dubbed as a second brain.
 * [Zotero](https://www.zotero.org): Open-source, free bibliography manager. Best one hands down. 
 * [Inoreader](https://www.inoreader.com): RSS service with a good enough free plan.
