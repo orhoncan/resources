@@ -61,4 +61,4 @@ Resources on economics, cryptocurrencies, some coding and tech that may have sli
 
 ## Apps to help academics
 * [Obsidian](https://obsidian.md): Mind mapping, note taking etc. using Zettelkassen method. Dubbed as a second brain.
-* [Zotero] (https://www.zotero.org): Open-source, free bibliography manager. Best one hands down. 
+* [Zotero](https://www.zotero.org): Open-source, free bibliography manager. Best one hands down. 
