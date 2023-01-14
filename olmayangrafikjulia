@@ -1,0 +1,47 @@
+using Pkg
+
+Pkg.add("Distributions")
+Pkg.add("StatsBase")
+Pkg.add("CSV")
+Pkg.add("DataFrames")
+Pkg.add("StatsBase")
+
+using CSV
+using DataFrames
+
+### dataset burada https://catalog.data.gov/dataset/nyc-dog-licensing-dataset
+### dosya uzantısı download klasörü olacak
+NYDogs = CSV.read("/Users/-------/Downloads/NYC_Dog_Licensing_Dataset.csv", DataFrame)
+
+### ırkı unknown olanları çıkardım
+DogsNY = NYDogs[(NYDogs.BreedName .!= "Unknown"), :]
+
+### boşluk olan satırlar gitti
+NYDF = DogsNY[:, ["AnimalName", "AnimalGender", "BreedName", "AnimalBirthYear"]]
+DogsNYF = dropmissing(NYDF)
+
+### kaçar tane var her ırktan baktım
+using StatsBase
+countmap(DogsNYF."BreedName")
+
+### dataframe'e attım
+DogsNameCount = countmap(DogsNYF."BreedName")
+ENV["LINES"]=200
+
+### toplam sayıları
+DogBreeds = combine(groupby(DogsNYF, :BreedName), nrow)
+
+### büyükten küçüğe sıralama
+
+DogBreeds2 = sort(DogBreeds, "nrow", rev = true)
+
+### en fazla olan 10 ırk
+
+D10 = first(DogBreeds2, 10)
+
+#### İŞTE BURASI OLMADI ÇİZEMİYORUM
+
+x= D10[!, :BreedName]
+y = D10[!, :nrow]
+
+bar(x,y)
