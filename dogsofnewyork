@@ -1,0 +1,64 @@
+import pandas as pd
+import researchpy as rp
+import seaborn as sns
+import matplotlib.pyplot as plt
+from scipy.stats import norm
+
+### indirdiğimiz CSV dosyasını aktarıyoruz - https://catalog.data.gov/dataset/nyc-dog-licensing-dataset/resource/cdba7b07-e782-4f23-958e-15121c2a58d4
+df = pd.read_csv('NYC_Dog_Licensing_Dataset.csv')
+
+### boş hücreleri attık
+new_df = df.dropna()
+
+### köpek ırkı bilinmiyorsa atıyoruz
+NYCData = new_df[new_df.BreedName != 'Unknown']
+
+### nasıl dağılmışlar bir bakalım
+NYC = rp.summary_cat(NYCData['BreedName'])
+
+### ilk 10 sıradaki köpek ırkını aldık
+NYCTop10 = NYC.iloc[:10]
+
+### gereksiz sütunu yolladık
+NYCTop10F = NYCTop10.drop('Variable', axis=1)
+
+### sütunları seriye çevirdim, sanırım gerek yoktu ama
+NYCBreed = NYCTop10F['Outcome']
+NYCCount = NYCTop10F['Count']
+NYCPerc = NYCTop10F['Percent']
+
+#bir tane grafik deneyelim pyplot ile (çorba bir şey olacak)
+colors = ['green', 'blue', 'purple', 'brown', 'teal']
+plt.bar(NYCBreed, NYCCount, color = colors)
+plt.title('NYC Köpekleri', fontweight = 'bold', fontsize=18)
+plt.xlabel('Irk', fontsize=14)
+plt.ylabel('Toplam Sayı', fontsize=14)
+
+### şimdi seaborne ile biraz daha hoş olsun (eksenler yer değiştirdi, okunaklı falan)
+fig, NYCGr = plt.subplots(figsize =(20, 8))
+NYCGr.barh(NYCBreed, NYCCount, color = ['green', 'blue', 'purple', 'brown', 'teal', 'orange', 'red', 'yellow', 'lightgrey', 'turquoise'])
+NYCGr.xaxis.set_tick_params(pad = 10)
+NYCGr.yaxis.set_tick_params(pad = 5)
+NYCGr.grid(b = True,
+        linestyle ='-.', linewidth = 0.5,
+        alpha = 0.2)
+NYCGr.invert_yaxis()
+plt.xlabel('Toplam Sayı', fontsize = 16)
+plt.ylabel('Irk', fontsize = 16)
+plt.title('NYC Köpekleri', fontweight = 'bold', fontsize=20, color='#30363d')
+sns.despine();
+sns.despine(right=True);
+sns.set(style="whitegrid");
+plt.rcParams['figure.dpi'] = 360
+
+### biraz daha dokunuş, bu sefer fena olmadı sanki
+SNSP = sns.barplot(y= Outcome, x= Count, data=NYCTop10F, palette = 'hls')
+plt.xlabel('Toplam Sayı', fontsize = 12, fontweight = 'bold', color='#000099', loc='center')
+plt.ylabel('Köpek Irkı', fontsize = 12, fontweight = 'bold', color='#000099')
+plt.title('New York Top 10 Köpekleri', fontsize=16, color='#006666', pad=20, loc='left', fontstyle='italic')
+sns.despine();
+sns.despine(right=True);
+sns.set(style="whitegrid");
+plt.rcParams['figure.dpi'] = 360
+SNSP.set(xticklabels=[])
+SNSP.bar_label(SNSP.containers[0], label_type='edge', rotation=15, padding=3)
