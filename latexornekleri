@@ -1,0 +1,153 @@
+## Kullandığım paketler (burası biraz çorba oldu, kesin gereksiz olanlar vardır sonra bakacağım artık (bakmadı))
+
+\documentclass[8pt]{beamer}
+% \documentclass{beamer}% for teacher version # eğer pdf düzgün çıkmazsa %'yi kaldırıp farklı boyutlarda deneyebilirsiniz.
+%\documentclass[handout]{beamer}
+%\usepackage{pgfpages}
+
+%\mode<handout>{%
+%    \pgfpagesuselayout{1 on 1}[a4paper,landscape]
+%}
+\usetheme{Warsaw}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{tgadventor}
+\usepackage[turkish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{siunitx}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{color}
+\setbeamertemplate{blocks}[rounded][shadow]
+\DeclareMathOperator{\argmin}{argmin}
+\author{Dr. Orhon Can Dağtekin}
+
+## Örnek bir sunum en sonda, tam kapaktan sonra
+## Örnek kapak
+
+\title{Makroiktisadi Kavramlar ve Temel Hesaplamalar}
+\subtitle{BSY2OO Makroiktisat}
+\newcommand{\email}{d.orhon@hbv.edu.tr}
+%\setbeamercovered{transparent} 
+\setbeamertemplate{navigation symbols}{} 
+\titlegraphic{\includegraphics[scale=0.08]{imagens/hbv_amblem.jpg}} ## burada okul logosu falan olabilir
+\institute[]{Ankara Hacı Bayram Veli Üniversitesi} 
+\date{22-23 Bahar Dönemi| \today}
+\setbeamertemplate{frametitle}{%
+    \nointerlineskip%
+    \begin{beamercolorbox}[wd=\paperwidth,ht=2.1ex,dp=0.6ex]{frametitle}
+        \hspace*{1ex}\insertframetitle%
+    \end{beamercolorbox}%
+}
+
+
+## Örnek Bloklar
+
+\begin{alertblock}{Önemli Noktalar}
+Ders boyunca tartışırken/yorum yaparken daima aklınızda bulundurmanız gereken kritik noktaları veya ders içinde yapılacakları kırmızı kutucuklar içerisine yerleştireceğim.
+\end{alertblock}
+
+\begin{exampleblock}{Örnekler}
+Konuştuğumuz kavramlar ile ilgili güncel örnekler yeşil kutucuklar içerisinde olacak.
+\end{exampleblock}
+
+\begin{block}{Tanımlar}
+Dönem boyunca yapacağımız tanımları mor kutucuklar içerisinde görececeksiniz.
+\end{block}
+
+## kendi bloğumu tanımladım biraz itekleyerek de olsa farklı renkte
+\newtheorem{proposition}{Haftaya Yapılacaklar}
+\BeforeBeginEnvironment{proposition}{
+\setbeamercolor{block title}{use=alerted text,fg=white,bg=cyan!20!blue}
+\setbeamercolor{block body}{parent=normal text,use=block title alerted,bg=block title.bg!10!bg}
+}
+\AfterEndEnvironment{proposition}{
+\setbeamercolor{block title}{use=structure,fg=white,bg=structure.fg!75!black}
+\setbeamercolor{block body}{parent=normal text,use=block title,bg=block title.bg!10!bg}
+}
+
+\begin{proposition}
+Gelecek haftaya hazırlanacak içerikler bu kutucuklarda yer alacak.
+\end{proposition}
+
+
+## Örnek bir liste
+
+{\small Örnek üç maddelik liste.}
+\begin{enumerate}
+\item Üretim Yöntemi
+\item Harcama Yöntemi
+\item Gelir Yöntemi
+\end{enumerate}
+
+## İki tane formül (ve açıklama) örneği
+
+\begin{equation}
+\sum_{}^{}P_x*Q_x
+\end{equation}
+\hspace*{3em}
+\begin{tabular}{rl}
+    $P$& fiyat \\
+    $Q$& miktar \\
+    $x$& ise ekonomide üretilen her bir malı ifade eder. \\
+\end{tabular}
+
+\begin{equation}
+\text{Büyüme}= \frac{\text{Reel GSYİH}_{t} - \text{Reel GSYİH}_{t-1}}{\text{Reel GSYİH}_{t-1}}
+\end{equation}
+
+## Notların sonunda kaynak listesi örneği
+
+\setbeamertemplate{itemize items}[square]
+\begin{itemize}
+\item \textbf{Anadolu Üniversitesi Makro İktisat $\Longrightarrow$ \emph{Bölüm 1 ve Bölüm 2}}
+\\ \url{https://ets.anadolu.edu.tr/storage/nfs/IKT204U/ebook/IKT204U-13V1S1-8-0-1-SV1-ebook.pdf}
+\item \textbf{TÜİK Veri Portalı - Enflasyon ve Fiyat} \\  
+\url{https://data.tuik.gov.tr/Kategori/GetKategori?p=Enflasyon-ve-Fiyat-106}
+\end{itemize}
+
+## Görsel ekleme örneği (eğer TR tanımladıysanız dosya başında shorthandoff şart)
+\begin{figure}
+\centering
+\shorthandoff=%
+ \includegraphics[width=0.5\textwidth]{dalgalanma.jpg}
+ \caption{Konjonktürel Dalgalanmalar \tinysize{(Anadolu Üniversitesi Makroiktisat)}}
+ \end{figure}
+ 
+ ## Genel bir sunum örneği
+ 
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}{Bu Haftanın Gündemi}
+\tableofcontents 
+\end{frame} 
+
+\section{Ana Başlık 1}
+\subsection{Alt Başlık 1.1}
+\begin{frame}{Sayfa Başlığı 1.1.1}
+\begin{block}{Tanım 1}
+1....Dönem boyunca yapacağımız tanımları mor kutucuklar içerisinde görececeksiniz.
+\end{block}
+\end{frame}
+
+\subsection{Alt Başlık 1.2}
+\begin{frame}{Sayfa Başlığı 2.1.1}
+\begin{exampleblock}{Örnek 1}
+1....Bir örnek
+\end{exampleblock}
+\end{frame}
+
+\section{Ana Başlık 2}
+\subsection{Alt Başlık 2.1}
+\begin{frame}{Sayfa Başlığı 2.1.1}
+\end{frame}
+
+\end{document}
