@@ -1,0 +1,67 @@
+
+library(readr)
+pokedex <- read_csv("Downloads/archive/pokedex_(Update_04.21).csv", 
+                                  col_types = cols(...1 = col_skip(), german_name = col_skip(), 
+                                                   japanese_name = col_skip()))
+
+library(ggplot2)
+# Count the number of Pokemon for each type
+type_counts <- table(pokedex$type_1)
+
+# Create a data frame with type and cumulative count
+type_data <- data.frame(type = names(type_counts),
+                        count = cumsum(type_counts))
+
+# Sort the data frame by cumulative count in descending order
+type_data <- type_data[order(type_data$count, decreasing = TRUE), ]
+
+# Create the bar plot
+ggplot(data = type_data, aes(x = type, y = count)) +
+  geom_bar(stat = "identity", fill = "skyblue") +
+  xlab("Pokemon Type") +
+  ylab("Cumulative Count") +
+  ggtitle("Distribution of Pokemon Types") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+# burası çalışmayacak, az renk tanımlamış
+# Define a custom color palette inspired by Pokemon brand colors
+pokemon_colors <- c("#FF0000", "#0066FF", "#FF6600", "#FFFF00", "#00CC00", "#9933FF", "#FF3399", "#808080", "#333333", "#FF9933")
+
+# Create the bar plot with custom colors
+ggplot(data = type_data, aes(x = type, y = count)) +
+  geom_bar(stat = "identity", fill = pokemon_colors) +
+  xlab("Pokemon Type") +
+  ylab("Cumulative Count") +
+  ggtitle("Distribution of Pokemon Types") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        panel.background = element_rect(fill = "#F2F2F2"),
+        plot.background = element_rect(fill = "#F2F2F2"),
+        plot.title = element_text(hjust = 0.5),
+        axis.line = element_line(color = "#333333"),
+        axis.text = element_text(color = "#333333"),
+        axis.title = element_text(color = "#333333"))
+
+# düzeltmesini istedikten sonra
+
+# Define a custom color palette inspired by Pokemon brand colors
+pokemon_colors <- c("#A8A77A", "#EE8130", "#6390F0", "#F7D02C", "#7AC74C", "#96D9D6", "#C22E28", "#A33EA1",
+                    "#E2BF65", "#A98FF3", "#F95587", "#A6B91A", "#B6A136", "#735797", "#6F35FC", "#705746",
+                    "#D685AD", "#B7B7CE")
+
+# Create the bar plot with custom colors
+ggplot(data = type_data, aes(x = type, y = count)) +
+  geom_bar(stat = "identity", fill = pokemon_colors) +
+  xlab("Pokemon Type") +
+  ylab("Cumulative Count") +
+  ggtitle("Distribution of Pokemon Types") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        panel.background = element_rect(fill = "#F2F2F2"),
+        plot.background = element_rect(fill = "#F2F2F2"),
+        plot.title = element_text(hjust = 0.5),
+        axis.line = element_line(color = "#333333"),
+        axis.text = element_text(color = "#333333"),
+        axis.title = element_text(color = "#333333"))
